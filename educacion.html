@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Curriculum Vitae - 1er Proyecto (Fundamentos HTML)</title>
+  </head>
+  <body>
+    <img src="images/logo.svg" alt="Logo" title="Logo">
+    <h1>Curriculum Vitae</h1>
+    <h2>Nombre y apellido: Luciano Gizzarelli</h2>
+    <h3>Fecha y lugar de nacimiento: 01/11/1992, Campana, Buenos Aires.</h3>
+<br>
+<navbar>
+  <ul>
+  <li><a href="index.html">Inicio</a></li>
+  <li><a href="educacion.html">Educación</a></li>
+  <li><a href="experiencia.html">Experiencia</a></li>
+  </ul>
+</navbar>
+<br>
+
+<h2>Educación</h2>
+
+<table border="1px" cellspacing="0px" width="400px" height="180px">
+<tr>
+  <td><center>Año</center></td>
+  <td><center>Institución</center></td>
+  <td><center>Lugar</center></td>
+  <td><center>¿Culminó?</center></td>
+</tr>
+
+<tr>
+  <td><center>2010</center></td>
+  <td><center>Dante Alighieri</center></td>
+  <td><center>Campana</center></td>
+  <td><center>Si</center></td>
+</tr>
+
+<tr>
+  <td><center>2011-2013</center></td>
+  <td><center>Universidad de Palermo</center></td>
+  <td><center>Capital federal</center></td>
+  <td><center>No</center></td>
+</tr>
+
+</table>
+
+<br>
+
+<form class="" action="index.html" method="post" title="Agregar Estudios">
+<h3>Agregar Estudios</h3>
+Año: <select name="año">
+      <option value="1">2016</option>
+      <option value="2">2015</option>
+      <option value="3">2014</option>
+      <option value="4">2013</option>
+      <option value="5">2012</option>
+      <option value="6">2011</option>
+      <option value="7">2010</option>
+      <option value="8">2009</option>
+      <option value="9">2008</option>
+      <option value="10">2007</option>
+      <option value="11">2006</option>
+    </select>
+<br>
+Insitución: <input type="text" name="institucion" required>
+<br>
+Lugar: <input type="text" name="lugar">
+<br>
+¿Culminó? <input type="radio" name="culmino" value="si">Si <input type="radio" name="culmino" value="no">No
+<br>
+<input type="submit" name="enviar" value="Enviar">
+</form>
+
+<footer>
+<p>
+<h3>INFO CONTACTO:</h3>
+lucianogizzarelli@gmail.com | 03489-15-636904 | Urquiza 904, Campana.
+</p>
+
+</footer>
+
+  </body>
+</html>
